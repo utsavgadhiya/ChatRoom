@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "A chatapp for real-time chatting",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/utsavgadhiya/ChatRoom.git"
+  },
+  "author": "Utsav Gadhiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utsavgadhiya/ChatRoom/issues"
+  },
+  "homepage": "https://github.com/utsavgadhiya/ChatRoom#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
